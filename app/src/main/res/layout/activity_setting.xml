@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="云平台IP" />
+        <EditText
+            android:id="@+id/edipnlecloudip"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="云平台IP"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="云平台端口"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/edipnlecloudport"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="云平台端口"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="项目ID" />
+        <EditText
+            android:id="@+id/projectID"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="项目ID"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="网关ID" />
+        <EditText
+            android:id="@+id/GatewayID"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="网关ID"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="LoRa网关ID" />
+        <EditText
+            android:id="@+id/LoRaGatewayID"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="LoRa网关ID"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="风扇标识符" />
+        <EditText
+            android:id="@+id/Fen"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="风扇标识符"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="甲烷标识符" />
+        <EditText
+            android:id="@+id/Methane"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="甲烷标识符"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:text="甲烷上限值" />
+        <EditText
+            android:id="@+id/MethaneMax"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="6"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="甲烷上限值"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">methane</string>
+    <string name="app_setting">设置</string>
+    <string name="app_logout">退出</string>
+</resources>
